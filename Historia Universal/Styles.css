@@ -1,0 +1,71 @@
+* {
+    transition: all 0.25s;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: steelblue;
+    background-image: url(https://onedrive.live.com/embed?resid=4823990688480450%215817&authkey=%21ABvOaV1XmJBZVto&width=3840&height=2160);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 120%;
+  }
+
+  #tablero-de-juego{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #ayuda{
+    background: black;
+    color: white;
+    border: black;
+    border-radius: 10px;
+    
+  }
+  
+  
+  #encabezado {
+    width: 80vw;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .opcion {
+    width: 70vw;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .opcion:hover{
+       background: lightgray;
+  }
+
+  #ayuda3312{
+    border-radius: 100%;
+  }
+  
